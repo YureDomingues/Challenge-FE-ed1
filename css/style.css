@@ -12,14 +12,17 @@ body{
     justify-content: space-between;
 }
 
-.cabecalho-pesquisa{
-    width: 750px;
-    height: 56px;
+.input-padrao{
     border: 1px hidden;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
     color: white;
     padding-left: 10px;
+    height: 56px;
+}
+
+.cabecalho-pesquisa{
+    width: 750px;
 }
 
 ::placeholder{
@@ -37,14 +40,20 @@ body{
     
 }
 
+.container-main{ 
+    display: flex; 
+    justify-content: space-between;  
+    width: 95%;
+    margin: 3em auto;
+}
+
 .menuPrincipal{
     color: white;
-    margin-left: 2em;
     width: 190px;
     height: 150px;
 }
 
-.menuPrincipal-menu{
+.menuPrincipal-titulo{
     font-size: 12px;
     margin-bottom: 16px;
     text-transform: uppercase;
@@ -79,4 +88,25 @@ body{
 
 .menuPrincipal-item:local-link(){
     opacity: 50%;
+}
+
+.infoProjeto{
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoProjeto-titulo{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+.infoProjeto-descricao{
+    margin-top: 1em;
+    font-family: 'Inter';
+    resize: none;
+    padding: 1em 2.5em 1em 1em;
 }

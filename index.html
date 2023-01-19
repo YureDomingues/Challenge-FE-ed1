@@ -14,27 +14,35 @@
         <img src="assets/img/Logo.svg" alt="Logo AluraDEV" class = "cabecalho-logo">
         <form>
             <label for="pesquisa"></label>
-            <input type="text" id="pesquisa" class="cabecalho-pesquisa" placeholder="Busque por algo">
+            <input type="text" id="pesquisa" class="input-padrao cabecalho-pesquisa" placeholder="Busque por algo">
         </form>
         <div class = "cabecalho-perfil">
             <img src="assets/img/Perfil.png">
             <p class = "cabecalho-perfil-usuario">Harry</p>
         </div>
     </header>
-    <nav class = "menuPrincipal">
-        <h2 class = "menuPrincipal-menu">Menu</h2>
-        <ul class = "menuPrincipal-lista">
-            <li class = "menuPrincipal-item">
-                <img src="assets/img/menu-editor.svg" class = "menuPrincipal-item-img">
-                <a href="index.html" class = "menuPrincipal-item-texto">Editor de código</a>
-            </li>
-            <li class = "menuPrincipal-item">
-                <img src="assets/img/menu-comunidade.svg"    class = "menuPrincipal-item-img">
-                <a href="#" class = "menuPrincipal-item-texto">Comunidade</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
+    <main class = "container-main">
+        <nav class = "menuPrincipal">
+            <h2 class = "menuPrincipal-titulo">Menu</h2>
+            <ul class = "menuPrincipal-lista">
+                <li class = "menuPrincipal-item">
+                    <img src="assets/img/menu-editor.svg" class = "menuPrincipal-item-img">
+                    <a href="index.html" class = "menuPrincipal-item-texto">Editor de código</a>
+                </li>
+                <li class = "menuPrincipal-item">
+                    <img src="assets/img/menu-comunidade.svg"    class = "menuPrincipal-item-img">
+                    <a href="#" class = "menuPrincipal-item-texto">Comunidade</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+        </section>
+        <section class="infoProjeto">
+            <h2 class="infoProjeto-titulo">Seu projeto</h2>
+            <input type="text" id="nomeProjeto" class="input-padrao infoProjeto-input" placeholder="Nome do seu projeto">
+            <textarea type="text" id="descricaoProjeto" class="input-padrao infoProjeto-descricao" placeholder="Descrição do seu projeto"></textarea>
+
+        </section>
     </main>
     <footer>
     </footer>
