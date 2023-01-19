@@ -3,10 +3,38 @@ body{
     font-family: 'Inter';
 }
 
-.logo{
-    margin-top: 44px;
-    margin-left: 2em;
-    margin-bottom: 50px;
+.cabecalho{
+    width: 95%;
+    height: 56px;
+    margin: 2em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.cabecalho-pesquisa{
+    width: 750px;
+    height: 56px;
+    border: 1px hidden;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    color: white;
+    padding-left: 10px;
+}
+
+::placeholder{
+    color:white;
+    margin-left: 14px;
+    opacity: 64%;
+}
+
+.cabecalho-perfil{
+    width: 106px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .menuPrincipal{
