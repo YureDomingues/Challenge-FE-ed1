@@ -96,12 +96,15 @@ body{
     flex-direction: column;
 }
 
-.infoProjeto-titulo{
+.infoProjeto-projeto{
     color: white;
     font-size: 12px;
-    margin-bottom: 16px;
     text-transform: uppercase;
     letter-spacing: 0.4em;
+}
+
+.infoProjeto-titulo{
+    margin-bottom: 1em;
 }
 
 .infoProjeto-descricao{
@@ -109,4 +112,13 @@ body{
     font-family: 'Inter';
     resize: none;
     padding: 1em 2.5em 1em 1em;
+}
+
+.infoProjeto-personalizacao{
+    margin: 2.5em 0 1em 0;
+}
+
+.infoProjeto select option{
+    color: black;
+    opacity: 64%;
 }
