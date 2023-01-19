@@ -23,6 +23,7 @@ body{
 
 .cabecalho-pesquisa{
     width: 750px;
+    justify-self: center;
 }
 
 ::placeholder{
@@ -118,7 +119,19 @@ body{
     margin: 2.5em 0 1em 0;
 }
 
-.infoProjeto select option{
-    color: black;
+.infoProjeto select{
+    color: white;
     opacity: 64%;
+}
+
+.infoProjeto select:active{
+    color: black;
+}
+
+.infoProjeto-cores{
+    margin: 1em 0;
+    width: 100%;
+    padding: 2px 8px;
+    border-color: white;
+    border-style: solid;
 }
