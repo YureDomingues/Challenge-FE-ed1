@@ -98,6 +98,12 @@ body{
     flex-direction: column;
 }
 
+.infoProjeto div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .infoProjeto-projeto{
     color: white;
     font-size: 12px;
@@ -135,4 +141,19 @@ body{
     padding: 2px 8px;
     border-color: white;
     border-style: solid;
+}
+
+.infoProjeto-salvar{
+    margin-top: 2em;
+    color: black;
+    background-color: #5081FB;
+}
+
+.infoProjeto-salvar:hover{
+    cursor: pointer;
+}
+
+.infoProjeto-salvar:active{
+    transition: 300ms;
+    scale: 0.8;
 }
