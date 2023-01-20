@@ -26,8 +26,12 @@ body{
 }
 
 .cabecalho-pesquisa{
-    width: 750px;
-    justify-self: center;
+    display: flex;
+    width: 50%;
+}
+
+.cabecalho-pesquisa-input{
+    width: 100%;
 }
 
 ::placeholder{
@@ -98,6 +102,39 @@ body{
 
 .menuPrincipal-item:local-link(){
     opacity: 50%;
+}
+
+.conteiner-codigo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #6BD1FF;
+    border: 1px hidden;
+    border-radius: 8px;
+    margin-bottom: 150px;
+}
+
+.codigo-fundo{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 94%;
+    height: 92%;
+    border-radius: 8px;
+}
+
+.codigo-fundo-texto{
+    font-family: 'Roboto Mono';
+    background: black;
+    color: white;
+    resize: none;
+    align-self: flex-end;
+    border-color: black;
+    width: 95%;
+    height: 80%;
+    margin-bottom: 10px;
 }
 
 .infoProjeto{
