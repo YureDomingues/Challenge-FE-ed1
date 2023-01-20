@@ -105,16 +105,22 @@ body{
     opacity: 50%;
 }
 
-.conteiner-codigo{
+.geral{
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+.conteiner-codigo{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
     align-items: center;
     justify-content: center;
     background-color: #6BD1FF;
     border: 1px hidden;
     border-radius: 8px;
-    margin-bottom: 150px;
+    margin-bottom: 2em;
 }
 
 .codigo-fundo{
@@ -167,6 +173,18 @@ body{
     height: 80%;
     margin-bottom: 10px;
     align-self: center;
+}
+
+.input-visualizar{
+    width: 100%;
+    background: #5081FB14;
+    transition: 1s;
+}
+
+.input-visualizar:hover{
+    cursor: pointer;
+    background: #5081FB;
+    opacity: 80%;
 }
 
 .infoProjeto{
