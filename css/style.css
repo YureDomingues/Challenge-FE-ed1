@@ -12,6 +12,10 @@ body{
     justify-content: space-between;
 }
 
+.cabecalho-logo{
+    width: 190px;
+}
+
 .input-padrao{
     border: 1px hidden;
     background: rgba(255, 255, 255, 0.16);
@@ -33,12 +37,16 @@ body{
 }
 
 .cabecalho-perfil{
-    width: 106px;
+    width: 272px;
     display: flex;
     color: white;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     
+}
+
+.cabecalho-perfil-usuario{
+    margin-left: 20px;
 }
 
 .container-main{ 
