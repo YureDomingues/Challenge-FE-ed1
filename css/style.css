@@ -28,6 +28,7 @@ body{
 .cabecalho-pesquisa{
     display: flex;
     width: 50%;
+    flex-shrink: 2;
 }
 
 .cabecalho-pesquisa-input{
@@ -118,11 +119,39 @@ body{
 
 .codigo-fundo{
     display: flex;
+    flex-direction: column;
     background-color: black;
     justify-content: center;
-    width: 94%;
-    height: 92%;
+    width: 90%;
+    height: 85%;
     border-radius: 8px;
+}
+
+.codigo-botoes{
+    display: flex;
+    height: 12px;
+    width: 12px;
+    margin: 10px 0px 15px 15px;
+}
+
+.codigo-botoes #botaoVermelho{
+    background-color: #FF5F56;
+    border: none;
+    border-radius:6px;
+    margin-right: 8px;
+}
+
+.codigo-botoes #botaoAmarelo{
+    background-color: #FFBD2E;
+    border: none;
+    border-radius:6px;
+    margin-right: 8px;
+}
+.codigo-botoes #botaoVerde{
+    background-color: #27C93F;
+    border: none;
+    border-radius:6px;
+    margin-right: 8px;
 }
 
 .codigo-fundo-texto{
@@ -131,10 +160,13 @@ body{
     color: white;
     resize: none;
     align-self: flex-end;
-    border-color: black;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
     width: 95%;
     height: 80%;
     margin-bottom: 10px;
+    align-self: center;
 }
 
 .infoProjeto{
