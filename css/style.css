@@ -128,8 +128,8 @@ body{
     flex-direction: column;
     background-color: black;
     justify-content: center;
-    width: 90%;
-    height: 85%;
+    width: calc(100% - (32px));
+    height: calc(100% - (32px));
     border-radius: 8px;
 }
 
